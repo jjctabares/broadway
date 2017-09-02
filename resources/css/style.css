@@ -56,3 +56,10 @@ p{
   color: white;
   text-align: center;
 }
+
+#footer,.footer,.downpage,.afooter{
+  background-color: dimgray;
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+}

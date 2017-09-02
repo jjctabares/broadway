@@ -25,6 +25,34 @@ li{
   color: white;
 }
 
-#process{
+#process,#work,#team,#contact{
+  text-align: center;
+}
+
+h2{
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p{
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+.city{
+  background-image: url("file:///C:/cygwin64/home/projects/broadway/resources/images/the-flatiron-building.png");
+  background-position:center;
+  background-clip:content-box;
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
   text-align: center;
 }

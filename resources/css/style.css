@@ -1,3 +1,30 @@
 #home{
-  background-image: url("file:///C:/cygwin64/home/projects/broadway/resources/images/the-flatiron-building.png")
+  background-image: url("file:///C:/cygwin64/home/projects/broadway/resources/images/the-flatiron-building.png");
+  background-position:center;
+  background-clip:content-box;
+}
+
+h1{
+  font-family: Helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+#process{
+  text-align: center;
 }

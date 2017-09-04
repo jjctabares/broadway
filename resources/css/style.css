@@ -1,7 +1,8 @@
 #home{
-  background-image: url("file:///C:/cygwin64/home/projects/broadway/resources/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
   background-position:center;
   background-clip:content-box;
+  background-repeat: no-repeat;
 }
 
 h1{
@@ -44,10 +45,11 @@ h3{
 p{
   font-family: Helvetica;
   font-size: 14px;
+
 }
 
 .city{
-  background-image: url("file:///C:/cygwin64/home/projects/broadway/resources/images/the-flatiron-building.png");
+  background-image:url("../images/the-flatiron-building.png");
   background-position:center;
   background-clip:content-box;
   font-family: Helvetica;
@@ -55,11 +57,17 @@ p{
   font-weight: bold;
   color: white;
   text-align: center;
+  background-repeat: no-repeat;
+
 }
 
-#footer,.footer,.downpage,.afooter{
+#footer, .footerr, .afooter {
   background-color: dimgray;
   font-family: Helvetica;
   font-size: 11px;
   color: white;
+  border: 100%;
+
+
+
 }
